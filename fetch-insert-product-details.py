@@ -5,7 +5,7 @@ import pymysql
 from bs4 import BeautifulSoup
 
 #conneting mysql database
-db = pymysql.connect( host = 'localhost', user = 'root', passwd = 'almighty', db='melkis')
+db = pymysql.connect( host = 'localhost', user = 'root', passwd = '1234', db='melkis')
 cursor = db.cursor()
 
 #Amazon url containing the list of mobile phones to extract product_name, price, product_condition and offers
